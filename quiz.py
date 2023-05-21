@@ -771,7 +771,7 @@ def start():
     canvas = Canvas(root,width = 720,height = 440, bg = 'yellow')
     canvas.grid(column = 0 , row = 1)
 
-    imgg = Image.open("C:\\Users\\admin\\Downloads\\output-onlinepngtools (1).png")
+    imgg = Image.open("C:\\Users\\admin\\Downloads\\quiz.jpg")
     imagg = imgg.resize((40,40))
     img = ImageTk.PhotoImage(imagg)
     but = Button(root, text='Start',command = signUpPage,bg="blue",fg="gray") 
